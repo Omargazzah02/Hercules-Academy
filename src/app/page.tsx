@@ -7,7 +7,7 @@ import OurLegacy from "@/components/OurLegacy";
 
 export default function Home() {
   return (
- <div   >
+ <div  >
 <BecomeStronger></BecomeStronger>
 <OurLegacy></OurLegacy>
 

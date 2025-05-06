@@ -1,6 +1,6 @@
 "use client"
 import Link from "next/link"
-import Button from "./Button"
+import Button from "./buttons/Button"
 
 const Nav = () => {
 
