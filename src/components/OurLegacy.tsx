@@ -36,21 +36,21 @@ const OurLegacy = () => {
 
             <div className='w-full p-4  flex  space-x-7 '>
             
-            <div className='w-96 h-64 bg-[url("/images/videos/video1.jpg")] bg-cover bg-center flex flex-col justify-end p-6' >
+            <div className='w-96 h-64 bg-[url("/images/videos/video1.jpg")] bg-cover bg-center flex flex-col justify-end p-6 hover-cursor' >
 
             <p className='font-bold text-white'><span className='text-red-600'>Semi Final </span> One</p>
             <p className='font-bold text-white'>Championship (UFC 2024)</p>
             
             </div>
          
-            <div className='w-96 h-64 bg-[url("/images/videos/video1.jpg")] bg-cover bg-center flex flex-col justify-end p-6' >
+            <div className='w-96 h-64 bg-[url("/images/videos/video1.jpg")] bg-cover bg-center flex flex-col justify-end p-6 hover-cursor' >
 
 <p className='font-bold text-white'><span className='text-red-600'>Final battle </span> Ultimate</p>
 <p className='font-bold text-white'>Fighting Championship (UFC 2023)</p>
 
 </div>
 
-<div className='w-96 h-64 bg-[url("/images/videos/video3.jpg")] bg-cover bg-center flex flex-col justify-end p-6' >
+<div className='w-96 h-64 bg-[url("/images/videos/video3.jpg")] bg-cover bg-center flex flex-col justify-end p-6 hover-cursor' >
 
 <p className='font-bold text-white'><span className='text-red-600'>Semi Final </span> One</p>
 <p className='font-bold text-white'>Championship (UFC 2024)</p>
@@ -65,11 +65,6 @@ const OurLegacy = () => {
 </div>
             </div>
 
-            <div className="h-96 overflow-y-auto space-y-4">
-  <img src="/images/1.jpg" alt="Image 1" className="w-full h-48 object-cover" />
-  <img src="/images/2.jpg" alt="Image 2" className="w-full h-48 object-cover" />
-  <img src="/images/3.jpg" alt="Image 3" className="w-full h-48 object-cover" />
-</div>
             </section>
     )
 

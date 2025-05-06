@@ -9,3 +9,7 @@
   background-size: cover;
   background-position: center;
 }
+
+.hover-cursor {
+  cursor: pointer; /* Tu peux utiliser 'pointer' ou 'crosshair', 'default', etc. */
+}
