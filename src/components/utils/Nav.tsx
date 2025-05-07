@@ -5,7 +5,7 @@ import Button from "./buttons/Button"
 const Nav = () => {
 
     return (
-        <nav className="px-16 p-4 flex justify-between     ">
+        <nav className="px-16 p-4 flex justify-betwee bg-slate-800     ">
     <ul className="flex space-x-5">
       <li>
         <Link href="/"  className="text-white" > Home </Link>

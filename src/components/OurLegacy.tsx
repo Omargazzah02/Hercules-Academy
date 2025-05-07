@@ -7,20 +7,20 @@ const OurLegacy = () => {
     return (
 
         <section
-    className="bg-[url('/images/background2.webp')] bg-cover  bg-top    h-screen  flex flex-col justify-end  pb-14 items-center  "
+    className="bg-[url('/images/background2.webp')] bg-cover  bg-top  lg:h-screen    flex flex-col justify-end   items-center p-4    "
         >
 
-        <div className='w- flex flex-col justify-center gap-y-10 '
+        <div className=' flex flex-col justify-center gap-y-10 w-[90%]  h-full  '
         > 
 
-            <div className='w-1/2 flex  flex-col gap-y-7'>
-            <h1 className='text-white font-extrabold text-6xl'>
+            <div className='lg:w-1/2 flex lg:text-left  flex-col gap-y-7 items-center lg:items-start '>
+            <h1 className='text-white font-extrabold lg:text-6xl text-3xl'>
                     OUR LEGACY OF <span className='text-red-600'>EXELLENCE </span>
                     IN MMA
                 </h1>
 
                 <p className='text-gray-300 text-sm  '>With Years Of Experience Mentoring Fighters From All Over The World, Hercules Academy Has Produced Champions Who Have Made Their Mark In National And International Competitions.</p>
-       <div className='flex space-x-2'>
+       <div className='flex space-x-2 '>
        <Button
            label='Watch Story'
            onClick={() => {}}
@@ -34,26 +34,26 @@ const OurLegacy = () => {
             </div>
 
 
-            <div className='w-full p-4  flex  space-x-7 '>
+            <div className='w-full p-4  flex  space-x-7 flex-wrap  justify-center'>
             
-            <div className='w-96 h-64 bg-[url("/images/videos/video1.jpg")] bg-cover bg-center flex flex-col justify-end p-6 hover-cursor' >
+            <div className='mb-3 w-56 lg:w-96 lg:h-64 h-40 bg-[url("/images/videos/video1.jpg")] bg-cover bg-center flex flex-col justify-end p-6 hover-cursor' >
 
-            <p className='font-bold text-white'><span className='text-red-600'>Semi Final </span> One</p>
-            <p className='font-bold text-white'>Championship (UFC 2024)</p>
+            <p className='font-bold text-white hidden lg:block'><span className='text-red-600'>Semi Final </span> One</p>
+            <p className='font-bold text-white hidden lg:block'>Championship (UFC 2024)</p>
             
             </div>
          
-            <div className='w-96 h-64 bg-[url("/images/videos/video1.jpg")] bg-cover bg-center flex flex-col justify-end p-6 hover-cursor' >
+            <div className='mb-3 w-56 lg:w-96 lg:h-64 h-40  bg-[url("/images/videos/video1.jpg")] bg-cover bg-center flex flex-col justify-end p-6 hover-cursor' >
 
-<p className='font-bold text-white'><span className='text-red-600'>Final battle </span> Ultimate</p>
-<p className='font-bold text-white'>Fighting Championship (UFC 2023)</p>
+<p   className='font-bold text-white hidden lg:block'><span className='text-red-600'>Final battle </span> Ultimate</p>
+<p className='font-bold text-white hidden lg:block '>Fighting Championship (UFC 2023)</p>
 
 </div>
 
-<div className='w-96 h-64 bg-[url("/images/videos/video3.jpg")] bg-cover bg-center flex flex-col justify-end p-6 hover-cursor' >
+<div className='mb-3 w-56 lg:w-96 lg:h-64 h-40  bg-[url("/images/videos/video3.jpg")] bg-cover bg-center flex flex-col justify-end p-6 hover-cursor' >
 
-<p className='font-bold text-white'><span className='text-red-600'>Semi Final </span> One</p>
-<p className='font-bold text-white'>Championship (UFC 2024)</p>
+<p className='font-bold text-white hidden lg:block'><span className='text-red-600'>Semi Final </span> One</p>
+<p className='font-bold text-white hidden lg:block'>Championship (UFC 2024)</p>
 
 </div>
 

@@ -21,11 +21,17 @@ input {
   opacity: 90%;
   height: 45px;
   padding: 5px;
+  color: white;
 }
 
 textarea{
   background-color:  rgb(50, 50, 50);
   opacity: 90%;
   padding: 7px;
+  color: white;
+
+}
+.footer-link{
+  color:gray
 
 }
