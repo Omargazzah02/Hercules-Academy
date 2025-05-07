@@ -10,7 +10,7 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body >
-        <div className='fixed top-0 w-full z-10'>      <Nav></Nav>
+        <div className='absolute top-0 w-full z-10'>      <Nav></Nav>
         </div>
          
 
