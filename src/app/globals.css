@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 
 
@@ -12,4 +13,19 @@
 
 .hover-cursor {
   cursor: pointer; /* Tu peux utiliser 'pointer' ou 'crosshair', 'default', etc. */
+}
+
+
+input {
+  background-color: rgb(50, 50, 50);
+  opacity: 90%;
+  height: 45px;
+  padding: 5px;
+}
+
+textarea{
+  background-color:  rgb(50, 50, 50);
+  opacity: 90%;
+  padding: 7px;
+
 }

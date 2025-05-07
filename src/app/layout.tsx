@@ -1,5 +1,6 @@
 import Nav from '../components/utils/Nav';
 import './globals.css';
+import Footer from '@/components/Footer'
 
 export default function RootLayout({
   children,
@@ -17,6 +18,15 @@ export default function RootLayout({
         <div className="container mx-auto  ">
           {children} {/* Contenu dynamique des pages */}
         </div>
+
+
+        
+
+
+        <Footer></Footer>
+
+
+
 
 
       </body>
