@@ -3,28 +3,28 @@
 import Button from "@/components/utils/buttons/Button"
 const Footer = () => {
     return(
-       <section className="bg-black h-screen  ">
-         <div className=" flex flex-row p-20 w-full">
-            <div className="basis-1/2 h-full  space-y-5 " >
+       <section className="bg-black h-full  ">
+         <div className=" flex lg:flex-row p-20 w-full lg:space-x-12 max-lg:flex-col max-lg:space-y-10  ">
+            <div className="h-full  space-y-5  lg:basis-1/2    max-lg:flex max-lg: flex-col max-lg:items-center  " >
                 <h1 className="font-extrabold text-3xl text-white ">NEWSLETTER</h1>
 
 
 
-                <form action="" className="grid grid-cols-2  gap-5 w-[70%]  " >
+                <form action="" className="grid grid-cols-2  gap-5 lg:w-[90%] w-full  " >
                     <div  className="col-span-2 w-full flex flex-col">
                         <label  className=" text-white font-bold">Name*</label>
-                    <input type="text" placeholder="Enter Your Name"  required />
+                    <input type="text" placeholder="Enter Your Name"  required  />
 
                         
                     </div>
-                    <div  className=" w-full  flex flex-col row-start-2" >
+                    <div  className=" w-full  flex flex-col lg:row-start-2  max-lg:col-span-2" >
                         <label className=" text-white font-bold">Email*</label>
                     <input type="email"  placeholder="Enter Your Email" required/>
 
                         
                     </div>
 
-                    <div  className=" w-full   flex flex-col  row-start-2">
+                    <div  className=" w-full   flex flex-col  lg:row-start-2 max-lg:col-span-2">
                         <label className=" text-white font-bold" >Phone Number*</label>
                     <input type="number" placeholder="Enter Phone Number" required />
 
@@ -43,7 +43,7 @@ const Footer = () => {
 
                         
                     </div>
-                    <div className="col-span-1">
+                    <div className="col-span-2">
                         <Button label="Submit" onClick={() => {}}></Button>
 
                     </div>
@@ -55,11 +55,11 @@ const Footer = () => {
             </div>
 
 
-            <div className="basis-1/2    h-full  flex space-x-16 justify-center">
+            <div className="basis-1/2 h-full flex  justify-center  items-start space-x-16  flex-wrap  ">
 
-            <div className="space-y-2" >
+            <div className="space-y-2 " >
                 <h3 className="text-white font-bold">Follow Us</h3>
-                <ul className=" space-y-3">
+                <ul className=" space-y-3">               
                     <li>
                         <a href="#" className="footer-link">Instagram</a>
                     </li>

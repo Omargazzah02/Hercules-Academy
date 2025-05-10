@@ -11,11 +11,11 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body >
-        <div className='absolute top-0 w-full z-10'>      <Nav></Nav>
-        </div>
+             <Nav></Nav>
+      
          
 
-        <div className="container mx-auto  ">
+        <div className="w-full  ">
           {children} {/* Contenu dynamique des pages */}
         </div>
 
