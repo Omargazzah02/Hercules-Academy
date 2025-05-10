@@ -15,7 +15,6 @@ const Nav = () => {
     setMenuVisible(lastState => !lastState);
   };
 
-
     return (
         <div className="flex flex-col w-full   ">
 
@@ -51,9 +50,8 @@ const Nav = () => {
      </div>
 
 
-     <i className="fas fa-ellipsis-h  absolute right-7 top-4 cursor-pointer lg:hidden text-3xl text-white" onClick={toggleMenu}></i>
 
-
+<div className='fas fa-ellipsis-h  absolute right-7 top-4 cursor-pointer  text-3xl text-white  lg:hidden' onClick={toggleMenu}></div>
 
 
    
