@@ -7,10 +7,10 @@ const OurLegacy = () => {
     return (
 
         <section
-    className="bg-[url('/images/background2.webp')] bg-cover  bg-top  lg:h-screen    flex flex-col justify-end   items-center p-4    "
+    className="bg-[url('/images/background2.png')]   bg-cover  bg-top  h-full    flex flex-col justify-end   items-center p-8    "
         >
 
-        <div className=' flex flex-col justify-center gap-y-10 w-[90%]  h-full  '
+        <div className=' flex flex-col justify-center gap-y-10 w-[90%]  h-full   '
         > 
 
             <div className='lg:w-1/2 flex lg:text-left  flex-col gap-y-7 items-center lg:items-start '>
