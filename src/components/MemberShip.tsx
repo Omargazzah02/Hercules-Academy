@@ -2,8 +2,8 @@
 import Button from "./utils/buttons/Button";
 const MemberShip = () => {
     return (
-      <section className="relative h-full">
-        <div className="absolute inset-0 bg-[url('/images/background4.jpg')] bg-cover bg-center z-0    " ></div>
+      <section className="relative h-full ">
+        <div className="absolute inset-0 bg-[url('/images/background4.jpg')] bg-cover bg-center z-0     " ></div>
   
         {/* Couche noire avec moins d'opacité */}
         <div className="absolute inset-0 bg-black opacity-80 z-10"></div>

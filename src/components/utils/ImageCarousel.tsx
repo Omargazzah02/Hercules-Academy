@@ -22,16 +22,9 @@ const ImageCarousel:  FC<ImageCarouselProps>  = ({images}) => {
         navigation = {true}
 
         watchSlidesProgress={true}
+        
+        slidesPerView = {3}
 
-        breakpoints={{
-            640: {
-              slidesPerView: 3,
-            },
-           
-            1024: {
-              slidesPerView: 3,
-            },
-          }}
 
 
       

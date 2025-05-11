@@ -12,7 +12,7 @@ const images = [
 ]
 const MeetOurCoaches = () => {
 return(
-    <section className='w-full    bg-gradient-to-b from-black to-red-950 space-y-6 flex flex-col items-center p-10 h-full' 
+    <section className='w-full    bg-gradient-to-b from-black to-red-950 space-y-6 flex flex-col items-center p-10 h-full ' 
     >
         <div className='text-center space-y-6 '>
             <h1 className='font-extrabold lg:text-6xl text-3xl text-white' >MEET OUR < span className='text-red-600'>COACHES</span></h1>

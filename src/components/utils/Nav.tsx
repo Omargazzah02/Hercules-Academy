@@ -51,7 +51,7 @@ const Nav = () => {
 
 
 
-<div className='fas fa-ellipsis-h  absolute right-7 top-4 cursor-pointer  text-3xl text-white  lg:hidden' onClick={toggleMenu}></div>
+<div className='fas fa-ellipsis-h  absolute right-7 top-4 cursor-pointer  text-3xl text-white  lg:text-transparent' onClick={toggleMenu}></div>
 
 
    

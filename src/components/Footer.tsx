@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
 
 
-            <div className="basis-1/2 h-full flex  justify-center  items-start space-x-16  flex-wrap  ">
+            <div className="basis-1/2 h-full flex   items-start space-x-5  flex-wrap justify-between    ">  
 
             <div className="space-y-2 " >
                 <h3 className="text-white font-bold">Follow Us</h3>
@@ -109,7 +109,7 @@ const Footer = () => {
 
 
             <div className="space-y-2">
-                <h3 className="text-white font-bold">Contact Us</h3>
+                <h3 className="text-white font-bold  max-lg:text-xs">Contact Us</h3>
                 <ul className="space-y-3">
                     <li>
                         <a href="#" className="footer-link">upnormalstudio@gmail.com</a>
