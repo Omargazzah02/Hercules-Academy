@@ -32,7 +32,7 @@ const OurLegacy = () => {
             </div>
 
 
-            <div className='w-full p-4  flex  space-x-7 flex-wrap  justify-center'>
+            <div className='w-full p-4  flex  lg:space-x-7 flex-wrap  justify-center'>
             
             <div className=' relative mb-3 w-80 lg:w-96 lg:h-64 h-52 bg-[url("/images/videos/video1.jpg")] bg-cover bg-center flex flex-col justify-end p-6 hover-cursor' >
             <i className="fas fa-play-circle  text-4xl text-red-600 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></i>

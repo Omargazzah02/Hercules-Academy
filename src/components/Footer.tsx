@@ -94,6 +94,7 @@ const Footer = () => {
                     <li>
                         <a href="#" className="footer-link">Service</a>
                     </li>
+                    
                     <li>
                         <a href="#" className="footer-link">Pricing</a>
                     </li>
@@ -109,7 +110,7 @@ const Footer = () => {
 
 
             <div className="space-y-2">
-                <h3 className="text-white font-bold  max-lg:text-xs">Contact Us</h3>
+                <h3 className="text-white font-bold ">Contact Us</h3>
                 <ul className="space-y-3">
                     <li>
                         <a href="#" className="footer-link">upnormalstudio@gmail.com</a>
@@ -133,7 +134,7 @@ const Footer = () => {
         <div className="grid grid-cols-2 space-y-4">
             <hr className="border-red-400 opacity-30 col-span-2"  />
             <div className="col-start-2 row-start-2 flex justify-end p-7 "> 
-            <p className="text-white ">© 2024 Hercules Academy. All Rights Reserved.</p>
+            <p className="text-white  max-lg:text-sm ">© 2024 Hercules Academy. All Rights Reserved.</p>
             </div>
 
         </div>
